@@ -1,0 +1,50 @@
+/build
+# Archivos y carpetas de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Archivos locales de propiedades (como claves, rutas de SDK)
+local.properties
+
+# Build outputs
+/build/
+*/build/
+
+# Gradle
+.gradle/
+**/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# Archivos temporales de compilación
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Archivos generados
+*.log
+*.lock
+*.tmp
+
+# Configuración de VS Code (por si acaso)
+.vscode/
+
+# Otros
+*.keystore
+*.jks
+*.class
+*.apk
+*.ap_
+*.dex
+*.so
+*.zip
+*.jar
+
+# Carpetas ocultas del sistema
+*.swp
+*.swo

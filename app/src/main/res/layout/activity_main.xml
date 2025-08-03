@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@android:color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btnWater"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tomé agua"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/btnWalk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Caminé"
+            android:layout_marginTop="10dp"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/btnBreath"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medite"
+            android:layout_marginTop="10dp"
+            android:padding="10dp" />
+    </LinearLayout>
+
+</androidx.wear.widget.BoxInsetLayout>
