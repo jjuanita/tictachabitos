@@ -1,6 +1,6 @@
-package com.example.tictachabits.presentation
+package com.example.tictachabits.presentation 
 
-import androidx.compose.animation.core.animateFloatAsState
+import androidx.compose.animation.core.animateFloatAsState //este archivo solo se creo para probar este import
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.foundation.layout.*
