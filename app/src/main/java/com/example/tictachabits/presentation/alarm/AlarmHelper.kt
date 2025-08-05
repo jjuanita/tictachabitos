@@ -16,8 +16,7 @@ object AlarmHelper {
 
         // Verificar si se permite programar alarmas exactas
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S && !alarmManager.canScheduleExactAlarms()) {
-            // Opcional: aquí puedes redirigir al usuario a permitirlo manualmente
-            val intent = Intent(Settings.ACTION_REQUEST_SCHEDULE_EXACT_ALARM)
+            val intent = Intent(Settings.ACTION_REQUEST_SCHEDULE_EXACT_ALARM)                            
             context.startActivity(intent)
             return
         }
