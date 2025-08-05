@@ -47,7 +47,7 @@ fun WelcomeScreen(
                 Text("Iniciar hábitos")
             }
             Button(
-                onClick = onViewStats, // <- este es el nuevo botón
+                onClick = onViewStats,
                 shape = RoundedCornerShape(16.dp),
                 modifier = Modifier
                     .fillMaxWidth()
