@@ -46,7 +46,7 @@ class HabitDataStore(private val context: Context) {
         }
     }
 
-//se supone que es para el reinicio de habitos cada dia
+//Reinicio de habitos cada día
 
 private val LAST_RESET_KEY = stringPreferencesKey("last_reset_date")
 
