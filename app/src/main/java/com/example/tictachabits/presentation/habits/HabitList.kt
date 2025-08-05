@@ -60,13 +60,13 @@ fun HabitList(habitDataStore: HabitDataStore) {
                 val count by countFlow.collectAsState(initial = 0)
 
                 val colors = listOf(
-                    Color(0xFFE0E0E0), // 0
-                    Color(0xFFBBDEFB), // 1
-                    Color(0xFF64B5F6), // 2
-                    Color(0xFF42A5F5), // 3
-                    Color(0xFF2196F3), // 4
-                    Color(0xFF1976D2)  // 5
-                )
+                    Color(0xFFE0E0E0), 
+                    Color(0xFFBBDEFB), 
+                    Color(0xFF64B5F6), 
+                    Color(0xFF42A5F5), 
+                    Color(0xFF2196F3), 
+                    Color(0xFF1976D2)  
+                )// cambio de color conforme los taps en el habito
 
                 val currentColor = colors.getOrElse(count.coerceAtMost(5)) { colors.last() }
 
